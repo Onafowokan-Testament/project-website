@@ -1,0 +1,157 @@
+body{font-family: "Montserrat";
+text-align:center;}
+
+h1,h2,h3,h4,h5,h6{
+font-family: "Montserrat";
+font-weight:700;
+}
+.colored-section{
+    background-color: #ff4c68;
+    color:white
+}
+
+.white-section{
+    background-color: #fff;
+
+}
+.container-fluid{
+    padding: 7% 15%}
+
+/*title section*/
+#title{
+        text-align:left;}
+
+#title .container-fluid{
+padding:3% 15% 7%
+}
+
+
+/* Header */
+.big-heading{
+font-family: "Montserrat Black";
+font-size:3.2rem;
+line-height:1.5;
+}
+
+section-heading{
+font-size:2.5rem;
+line-height:1.5;}
+
+
+
+/*NAVIGATION BAR CONTROL*/
+.navbar{
+padding-bottom: 0 0 4.5rem;
+margin-bottom:30px;
+}
+
+.navbar-brand{
+font-family:"Ubuntu";
+font-size: 2.5rem;
+font-weight:700;}
+
+.nav-item {
+padding:0 18px;
+font-size: 1.2rem;
+font-family: "Montserrat Light";}
+
+
+/*DOWNLOAD BUTTONS*/
+.download-button{
+margin: 5% 3% 5% 0;}
+
+/*TITLE IMAGE*/
+.iphone-container{
+    position: relative;
+}
+.title-image{
+width: 60%;
+transform: rotate(25deg);
+position: absolute;
+
+}
+
+/*images  second layer */
+.icon{
+color:#ef8172;
+margin-bottom:1rem;
+}
+.icon:hover{
+color:#ff4c68;}
+
+.oath-box{
+padding:5%;
+}
+
+
+/*descriptions*/
+p{
+color:#8f8f8f;}
+
+#features{
+
+position: relative;
+z-index:1;
+}
+.feature-title{
+font-size:1.2rem
+}
+
+/*TESTIMONIALS SECTION*/
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonial-text{
+font-size:2.5rem;
+line-height:1.5;}
+
+.testimonials-image{
+width:10%;
+border-radius:100%;
+margin: 20px}
+
+
+#press{
+    background-color: #ef8172;
+    padding-bottom:3%}
+
+.press-logo{
+width:15%
+margin:20px 20px 50px }
+
+
+/*pricing section*/
+#pricing{
+padding:100px;
+}
+
+.pricing-column{
+padding:3% 2%}
+
+.price-text{
+font-size:2.5rem;
+line-height:1.5;
+}
+@media (max-width: 1028px) {
+#title{
+text-align:center; }
+
+
+.title-image{
+position:static;
+transform:rotate(0deg);
+
+}
+}
+
+/*cta section */
+
+
+#footer{
+margin-top:100px;
+margin-bottom:100px;
+}
+
+.media-photos{
+margin: 20px 10px;}
+
